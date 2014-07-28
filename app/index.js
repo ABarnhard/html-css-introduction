@@ -26,6 +26,10 @@ app.get('/ninjas', function(req, res){
   res.render('ninjas');
 });
 
+app.get('/pirates', function(req, res){
+  res.render('pirates');
+});
+
 app.listen(3000, function(){
   console.log('Express.js is listening...');
 });

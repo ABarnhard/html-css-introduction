@@ -1,0 +1,48 @@
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC);
+@import url(http://fonts.googleapis.com/css?family=Uncial+Antiqua);
+
+h1{
+  color: red;
+  background-color: yellow;
+  font-size: 50px;
+  letter-spacing: 3px;
+  padding: 20px;
+  margin: 0px;
+  font-family: 'IM Fell Great Primer SC', serif;
+  border: 3px double red;
+}
+
+body{
+  margin: 0px;
+  background-color: green;
+}
+nav{
+  padding: 20px;
+}
+
+footer{
+  padding: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: red;
+  border: 2px dashed blue;
+  padding: 5px;
+  margin: 10px;
+  font-family: 'Uncial Antiqua', cursive;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: purple;
+  background-color: red;
+}
+
+.super{
+  color: red;
+}
+
+#awesome{
+  color: blue;
+}
